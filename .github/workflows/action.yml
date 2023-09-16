@@ -19,7 +19,7 @@ jobs:
           ls -a  
       - name: Simple Javascript Action
         id: hello
-        uses: actions/hello-world-javascript-action:
+        uses: actions /hello-world-javascript-action@v1
         with:
          who-to-greet: devopshint
 
