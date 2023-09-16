@@ -3,7 +3,7 @@ name: Custom Environment Vriables
 on: push
 
 env:
-  SUBSCRIBE: Prod Region
+  PROD: Prod Region
 
 jobs:
   TruX:
