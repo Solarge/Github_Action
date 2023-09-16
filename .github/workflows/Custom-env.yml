@@ -15,14 +15,13 @@ jobs:
         run: echo "$DEV , $SUBSCRIBE and $MO channel."
 
         env:
-          MO: Mo Region 
+          MO: Mo Region
 
-jobs:
-default-env-variables:
+  default-env-variables:
     runs-on: ubuntu-latest
     steps:
-    - name: Environment variables
-        run: |
+     - name: Environment variables
+       run: |
         echo "GITHUB_ACTION: ${GITHUB_ACTION}"
         echo "HOME: ${HOME}"
         echo "GITHUB_WORKSPACE: ${GITHUB_WORKSPACE}"
@@ -32,4 +31,4 @@ default-env-variables:
         echo "GITHUB_JOB: ${GITHUB_JOB}"
         echo "GITHUB_REPOSITORY: ${GITHUB_REPOSITORY}"
         echo "GITHUB_SHA: ${GITHUB_SHA}"
-        echo "RUNNER_OS: ${RUNNER_OS}"          
+        echo "RUNNER_OS: ${RUNNER_OS}"
