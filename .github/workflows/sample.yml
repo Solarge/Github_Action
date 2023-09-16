@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: string
-        run: echo "Welcome to Devopshint!!"
+        run: echo "Welcome to Solarge!!"
       - name: multiline script
         run: |
           node -v
