@@ -11,7 +11,7 @@ jobs:
            pwd 
            ls -a
       - name: checkout
-        uses: actions/checkout
+        uses: actions/checkout@v2
 
       - name: List Files After Checkout 
         run: |
@@ -19,7 +19,7 @@ jobs:
           ls -a  
       - name: Simple Javascript Action
         id: hello
-        uses: actions/hello-world-javascript-action@action.yaml
+        uses: actions/hello-world-javascript-action@v1
         with:
          who-to-greet: devopshint
 
