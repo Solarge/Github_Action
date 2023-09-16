@@ -6,7 +6,7 @@ env:
   SUBSCRIBE: Prod Region
 
 jobs:
-  Subscribe-my-channel:
+  TruX:
     runs-on: ubuntu-latest
     env:
       DEV: Dev Region
